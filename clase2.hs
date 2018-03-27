@@ -22,8 +22,7 @@ chisteDeTomates = Chiste {
 }
 
 
-
-
+esCorto cantidadDeCaracteres = (<= cantidadDeCaracteres) . length . contenido
 
 
 
