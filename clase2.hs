@@ -14,6 +14,8 @@ nuevosLikes otrosLikes unChiste = unChiste { likes = otrosLikes}
 
 ahReLoco unChiste = nuevoContenido (contenido unChiste ++ " Ah re Loco!!") unChiste
 
+meGusta unChiste = nuevosLikes (likes unChiste + 1) unChiste
+
 chisteDeTomates = Chiste {
   contenido = "Un tomate le dice al otro Hola! Y el otro le dice Ah! un tomate que habla!!",
   likes = 5
